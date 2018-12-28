@@ -1,18 +1,12 @@
 <template>
 	<div>
 		shoppingcar
-			<tabbar></tabbar>
-
 	</div>
 </template>
 
 <script >
-import tabbar from './tabbar-shopping'
 	export default {
-	components:{
-		tabbar
-	}
-
+		
 	}
 </script>
 

@@ -12,6 +12,7 @@ import Info from "../components/info"
 Vue.use(Router)
 
 const router =  new Router({
+  //history去井号
   mode: 'hash',
   routes: [
     {
@@ -53,7 +54,7 @@ const router =  new Router({
     // },
      {
       name:"detail",
-      path: '/detail/:kerwinid', //动态路由 /detail/1111
+      path: '/detail/:id', //动态路由 /detail/1111
       component: Detail
     },
     {
